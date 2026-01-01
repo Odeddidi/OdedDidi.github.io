@@ -673,7 +673,8 @@ section:nth-child(5) { animation-delay: 0.4s; }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 420px));
+    justify-content: center;
     gap: 2.5rem;
     max-width: 1200px;
     margin: 0 auto;
